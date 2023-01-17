@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+    #slider{
+    /* background-color: red; */
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+img{
+    width:100vw;
+    height: 70vh;
+    border-radius: 20px;
+}
+button{
+    position : absolute;
+    
+    border: none;
+    background: rgba(0,0,0,0.5);
+}
+button i {
+    color: white;
+}
+#button1{
+    left:40px;
+}
+#button2{
+    right:40px;
+}
